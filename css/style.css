@@ -67,7 +67,7 @@ header{
 
 @media screen and (max-width: 305px){
 	.site-title{
-		font-size: 2.8em;
+		font-size: .8em;
 		margin: 0 auto;
 	}
 	.main-nav{
@@ -79,7 +79,7 @@ header{
 }
 @media screen and (min-width: 305px) and (max-width: 313px), (min-width: 314px){
 	.site-title{
-		font-size: 1em;
+		font-size: 3em;
 		margin: 0 auto;
 	}
 	.main-nav{
