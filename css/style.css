@@ -81,7 +81,7 @@ nav ul li a:hover{
 	color:#efefef;
 	background-color: #444;  	
 }
-nav ul li a:active{
+nav ul li a.active{
 	color:#efefef;
 	background-color: #444;
 }
