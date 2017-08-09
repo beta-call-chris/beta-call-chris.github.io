@@ -62,7 +62,6 @@ nav ul{
 	padding: 0;
 	flex-grow: 1;
 	justify-content: space-around;
-
 	display: flex;
 	margin: auto;
 }
@@ -70,7 +69,21 @@ nav ul li{
 
 }
 nav ul li a{
-
+	font-family: Arial, sans-serif;
+	font-size: 2rem;
+	color: #444;
+	text-decoration: none;
+	border: 1px solid #444;
+	padding: 10% 30%;
+	transition: background-color .5s ease-out;
+}
+nav ul li a:hover{
+	color:#efefef;
+	background-color: #444;  	
+}
+nav ul li a:active{
+	color:#efefef;
+	background-color: #444;
 }
 main,aside{
 	padding: 20px 0;
