@@ -1,88 +1,80 @@
 *{
-	margin: 0;
-	padding: 0;
 	box-sizing: border-box;
 }
-.article-content-container{
-	background-color: #587268;
-}
-/*.article-title, .article-content-img{
-	margin-left: 1.5em;
-	line-height: 1.2em;
-}*/
-.content-info{
-	margin-left: 1.5em;
-	font-size: 1em;
-}
-.header_container{
-	padding: 20px;
-	display: flex;
-	justify-content: center;
-}
-header{
-	width: 900px;
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
-}
-.site-title h1,h2{
-	display: flex;
-	justify-content: center;
-	font-family: raleway:400;
-}
-.main-nav{
-	display: flex;
-	align-items: center;
-}
-.main-nav ul{
-	display: flex;
-	justify-content: space-between;
+ul{
 	list-style-type: none;
 }
-.main-nav li{
-	margin: 0 5px;
+body{
+	background-color: #eee;
+	font-family: Arial, sans-serif;
+	color: #444;
 }
-.article-title-container{
-	background-color: #715894;
-	display: flex;
-	justify-content: center;
-	padding: .5em 0;
+.container{
+	/*background-color: #181D25;*/
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(3);
+	max-width: 1600px;
+	margin: auto;
 }
-.article-title{
-	background-color: #674189;
-	display: flex;
+header{
+	grid-column: 1 / 3;
+	grid-row: 1;
 }
-.article-content-container{
-	display: flex;
-	justify-content: center;
+nav{
+	grid-column: 3 / -1;
+	grid-row: 1;
 }
-.article-content-img{
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
+main{
+	grid-column: 1 / 3;
+	grid-row: 2;
 }
+aside{
+	grid-column: 3 / -1;
+	grid-row: 2;
+}
+footer{
+	grid-column: 1 / -1;
+	grid-row: 3;
+}
+header,nav{
+	border-bottom: 1px solid #696C71;
+}
+footer{
+	border-top: 1px solid #696C71;
+}
+header{
+	margin: auto;
+}
+header h1,h2{
 
-/********************************************************/
-/* MEDIA QUERIES*/
-
-@media screen and (max-width: 305px){
-	.site-title{
-		font-size: .8em;
-		margin: 0 auto;
-	}
-	.main-nav{
-		/*font-size: .8em;*/
-		margin: 0 auto;
-	}
-	.article-title{
-			}
+	display: flex;
+	justify-content: space-around;
 }
-@media screen and (min-width: 305px) and (max-width: 313px), (min-width: 314px){
-	.site-title{
-		font-size: 3em;
-		margin: 0 auto;
-	}
-	.main-nav{
-		font-size: 1.4em;
-		margin: 0 auto;
+header h1{
+	font-size: 5em;
+}
+nav{
+
+	display: flex;
+}
+nav ul{
+	padding: 0;
+	flex-grow: 1;
+	justify-content: space-around;
+
+	display: flex;
+	margin: auto;
+}
+nav ul li{
+
+}
+nav ul li a{
+
+}
+main,aside{
+	padding: 20px 0;
+}
+aside{
+	margin: auto;
 }
