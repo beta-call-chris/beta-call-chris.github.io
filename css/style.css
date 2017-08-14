@@ -88,6 +88,20 @@ nav ul li a.active{
 main,aside{
 	padding: 20px 0;
 }
+article h3{
+	font-size: 1.50em;
+	padding-bottom: .25em;
+}
+article h3:nth-child(4n-1),p:nth-child(4n-8){
+	background-color: #ddd;
+}
+
+article p{
+	line-height: 1.5em;
+	margin-bottom: 1.25em;
+}
+article h1{}
+article dl{}
 aside{
 	margin: auto;
 }
