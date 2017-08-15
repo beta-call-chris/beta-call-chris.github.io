@@ -73,7 +73,6 @@ nav ul li{
 }
 nav ul li a{
 	font-family: Arial, sans-serif;
-	font-size: 2rem;
 	color: #444;
 	text-decoration: none;
 	border: 1px solid #444;
@@ -92,7 +91,6 @@ main,aside{
 	padding: 20px 0;
 }
 article h3{
-	font-size: 1.50em;
 	padding-bottom: .25em;
 }
 article h3:nth-child(4n-1),p:nth-child(4n-8){
