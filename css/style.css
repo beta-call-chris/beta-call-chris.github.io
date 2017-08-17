@@ -15,16 +15,6 @@ body{
 	font-size: 1.2em;
 	color: #333;
 }
-/*
-h1{
-	font-size: 4.3em;
-}
-h3{
-	font-size: 1.44em;
-}
-h2{
-	font-size: 2.074em;
-}*/
 h1{
 	font-size: 1.728em;
 }
@@ -39,6 +29,8 @@ img{
 }
 .container{
 	display: grid;
+	justify-content: space-around;
+	margin: auto;
 	max-width: 1600px;
 	grid-template-columns: 1fr;
 	grid-gap: 50px;
@@ -70,7 +62,7 @@ nav ul li a{
 }
 nav ul li a:hover{
 	color:#efefef;
-	background-color: #444;  	
+	background-color: #444;
 }
 nav ul li a.active{
 	color:#efefef;
@@ -96,9 +88,33 @@ aside{
 }
 footer{
 	border-top: 1px solid #696C71;
+	font-weight: bold;
+	display: flex;
+	justify-content: space-around;
 }
 @media (min-width: 675px){
-	header{
-		background-color: #408570;
+	.container{
+		grid-template-columns: 1fr 1fr;
+	}
+	header, nav, footer{
+		grid-column: 1 / -1;
+	}
+	h1{
+		font-size: 4.3em;
+	}
+	h2{
+		font-size: 2.074em;
+	}
+	h3{
+		font-size: 1.44em;
+	}
+	img{
+		padding: 0 1em;
+	}
+	main{
+		display: grid;
+	}
+	article{
+		margin: auto;
 	}
 }
