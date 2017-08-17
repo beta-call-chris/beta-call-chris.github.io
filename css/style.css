@@ -2,6 +2,9 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	-webkit-text-size-adjust: 100%;
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: 100%;
 }
 ul{
 	list-style-type: none;
