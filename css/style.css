@@ -83,8 +83,7 @@ article h3{
 	padding: 0 1em;
 }
 article h3:nth-child(4n-1),p:nth-child(4n-8){
-	background-color: #ddd;
-	
+	background-color: rgba(207, 207, 207, 0.50);	
 }
 article p{
 	line-height: 1.3em;
@@ -131,6 +130,6 @@ footer{
 	}
 }
 body{
-	background-image: url(src="images/img-noise-361x370.png");
+	background-image: url(pics/hip-square.png);
 	background-repeat: repeat;
 }
