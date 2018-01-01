@@ -76,8 +76,13 @@ list.toggleAll();
 list.showTodos();*/
 
 var displayTodosButton = document.getElementById('displayTodosButton');
-
-
+displayTodosButton.addEventListener('click', function(){
+    list.showTodos();
+})
+var toggleAllButton = document.getElementById('toggleAllButton');
+toggleAllButton.addEventListener('click', function(){
+    list.toggleAll();
+})
 
 
 
