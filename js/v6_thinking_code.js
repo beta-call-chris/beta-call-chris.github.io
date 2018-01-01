@@ -57,34 +57,41 @@ var list = {
         }
     }
 }
-/*list.addTodo('item 1');
-list.addTodo('item 2');
-list.addTodo('item 2');
-list.addTodo('item 3');
-list.addTodo('item 4');
-list.addTodo('item 5');
-list.addTodo('item 6');
-list.addTodo('item 7');
-list.addTodo('item 8');
-list.addTodo('item 9');
-list.addTodo('item 10');
-list.amendTodo(0, 'first');
-list.toggleCompleted(0);
+//list.addTodo('item 1');
+//list.addTodo('item 2');
+//list.addTodo('item 2');
+//list.addTodo('item 3');
+//list.addTodo('item 4');
+//list.addTodo('item 5');
+//list.addTodo('item 6');
+//list.addTodo('item 7');
+//list.addTodo('item 8');
+//list.addTodo('item 9');
+//list.addTodo('item 10');
+//list.amendTodo(0, 'first');
+//list.toggleCompleted(0);
 //list.toggleCompleted(1);
 //list.toggleAll();
-list.toggleAll();
-list.showTodos();*/
+//list.toggleAll();
+//list.showTodos();
 
-var displayTodosButton = document.getElementById('displayTodosButton');
+/*var displayTodosButton = document.getElementById('displayTodosButton');
 displayTodosButton.addEventListener('click', function(){
     list.showTodos();
 })
 var toggleAllButton = document.getElementById('toggleAllButton');
 toggleAllButton.addEventListener('click', function(){
     list.toggleAll();
-})
+})*/
 
-
+var handlers = {
+    showTodos: function(){
+        list.showTodos();
+    },
+    toggleAll: function(){
+        list.toggleAll();
+    }
+};
 
 
 
