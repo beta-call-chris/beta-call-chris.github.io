@@ -84,14 +84,7 @@ toggleAllButton.addEventListener('click', function(){
     list.toggleAll();
 })*/
 
-var handlers = {
-    showTodos: function(){
-        list.showTodos();
-    },
-    toggleAll: function(){
-        list.toggleAll();
-    }
-};
+
 
 
 
